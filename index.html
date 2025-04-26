@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EliteEstate - Luxury Real Estate</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">EliteEstate</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#properties">Properties</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <video src="https://sample-videos.com/video123/mp4/4k/720/big_buck_bunny_720p_1mb.mp4" autoplay muted loop class="hero-video"></video>
+    <div class="hero-overlay">
+      <h1>Discover Luxury Living</h1>
+      <p>Invest in the world's most prestigious properties</p>
+      <a href="#properties" class="btn">View Properties</a>
+    </div>
+  </section>
+
+  <section id="properties" class="properties">
+    <h2>Featured Properties</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide property-card">
+          <img src="https://source.unsplash.com/collection/190727/800x600" alt="Property 1" />
+          <h3>Oceanfront Villa</h3>
+          <p>$5,000,000</p>
+        </div>
+        <div class="swiper-slide property-card">
+          <img src="https://source.unsplash.com/collection/190728/800x600" alt="Property 2" />
+          <h3>Mountain Retreat</h3>
+          <p>$3,200,000</p>
+        </div>
+        <div class="swiper-slide property-card">
+          <img src="https://source.unsplash.com/collection/190726/800x600" alt="Property 3" />
+          <h3>Urban Penthouse</h3>
+          <p>$4,500,000</p>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About EliteEstate</h2>
+    <p>EliteEstate is a leading luxury real estate agency specializing in high-end properties around the globe. Our expert team delivers unparalleled service and investment opportunities.</p>
+    <ul class="advantages">
+      <li>Exclusive Listings</li>
+      <li>Global Network</li>
+      <li>Tailored Investment Strategies</li>
+      <li>24/7 Concierge Service</li>
+    </ul>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial-card">
+          <p>"Investing with EliteEstate was the best decision I've ever made. Their professionalism is unmatched."</p>
+          <h4>- Sara Williams</h4>
+        </div>
+        <div class="swiper-slide testimonial-card">
+          <p>"EliteEstate found us our dream home in record time. Highly recommend their services."</p>
+          <h4>- John Smith</h4>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section id="team" class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team Member 1"/>
+        <h4>Emma Johnson</h4>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Team Member 2"/>
+        <h4>Michael Brown</h4>
+        <p>Chief Operations Officer</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="Team Member 3"/>
+        <h4>Sophia Davis</h4>
+        <p>Head of Investments</p>
+      </div>
+      <div class="team-member">
+        <img src="https://randomuser.me/api/portraits/men/48.jpg" alt="Team Member 4"/>
+        <h4>James Wilson</h4>
+        <p>Lead Architect</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 EliteEstate. All rights reserved.</p>
+    <div class="social">
+      <a href="#"><span>LinkedIn</span></a>
+      <a href="#"><span>Instagram</span></a>
+      <a href="#"><span>Facebook</span></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
